@@ -54,3 +54,8 @@
 .cardFooter:active{
     transform:scale(1.01)
 }
+@media only screen and (max-width: 800px) {
+  .container{
+    width:100%;
+  }
+}

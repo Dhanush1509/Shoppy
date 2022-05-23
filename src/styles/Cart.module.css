@@ -2,7 +2,6 @@
     padding: 0 5vw;
 }
 .gridcontainer {
-  
   display: grid;
   gap:20px;
   grid-template-columns: 2fr 1fr;
@@ -14,6 +13,8 @@
   text-align: center;
   height:200px;
   margin-bottom: 20px;
+  width:100%;
+  max-width: 400px;
 }
 .cartContainer {
 
@@ -36,8 +37,17 @@
     text-decoration:none;
     font-weight:bolder;
 }
-@media only screen and (max-width: 800px) {
- .container {
+@media only screen and (max-width: 1200px) and (min-width: 700px){
+.cartContainer {
+  width:100%;
+}
+ 
+}
+@media only screen and (max-width: 900px) {
+ 
+ .gridcontainer {
      grid-template-columns: 1fr;
+     justify-items: center;
  }
+
 }

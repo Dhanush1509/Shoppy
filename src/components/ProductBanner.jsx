@@ -20,7 +20,7 @@ const ProductBanner = ({
       <div>
         <img src={img} alt={name} />
       </div>
-      <div title={name} style={{ width: "300px" }}>{`${name.substr(
+      <div title={name} className={styles.title}>{`${name.substr(
         0,
         60
       )}...`}</div>

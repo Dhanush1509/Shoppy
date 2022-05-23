@@ -6,13 +6,13 @@ justify-items: center;
 }
 @media only screen and (max-width: 800px) {
   .product_container {
-        padding: 50px 0;
+        padding: 50px 5vw;
     grid-template-columns: 1fr;
   }
 }
 @media only screen and (max-width: 1200px) and (min-width: 800px) {
   .product_container {
     grid-template-columns: 1fr 1fr;
-      padding: 50px 0;
+      padding: 50px 5vw;
   }
 }
